@@ -7,7 +7,7 @@
 # E[z(t)] ~ N(z(0),sigma^2*t1) where z(0) is the root state, t is branch length and sigma^2 is rate parameter
 # (eq. 3.17) from Harmon's Phylogenetic Comparative Methods: https://lukejharmon.github.io/pcm/chapter3_bmintro/, chapter 3.4
 
-# packages requires 
+# packages require 
 library(phytools)
 library(ape)
 library(geiger)
