@@ -4,7 +4,7 @@
 # This function takes an object class phylo, two parameters (root.state and variance) and trait values 
 # and outputs log-likelihood under a Brownian motion model 
 # Note: under the Brownian motion model, the trait evolution over time can be modelled as 
-# E[z(t)] ~ N(z(0),sigma^2*t1) where z(0) is the root state, t is branch length and ??^2 is rate parameter
+# E[z(t)] ~ N(z(0),sigma^2*t1) where z(0) is the root state, t is branch length and sigma^2 is rate parameter
 # (eq. 3.17) from Harmon's Phylogenetic Comparative Methods: https://lukejharmon.github.io/pcm/chapter3_bmintro/, chapter 3.4
 
 # packages requires 
